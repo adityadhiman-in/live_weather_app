@@ -7,12 +7,12 @@
     font-family: "Barlow Condensed", sans-serif;
 }
 body{
-    background: #222;
+    background:#D6EFD8;
 }
 .weatherCard{
     width: 90%;
     max-width: 470px;
-    background: linear-gradient(135deg, #fe7200, #08ad0d);
+    background: linear-gradient(135deg, #508D4E, #1A5319);
     color: #fff;
     margin: 100px auto 0;
     border-radius: 20px;

@@ -30,8 +30,9 @@ async function getWeatherData(city) {
         } else if (weatherCondition === "Mist") {
             weatherIcon.className = "ri-mist-line";
         } else {
-            weatherIcon.className = "ri-weather-line";
+            weatherIcon.className = "ri-sun-fill";
         }
+
 
     } catch (error) {
         console.error("Error fetching weather data:", error.message);
@@ -61,7 +62,8 @@ document.addEventListener("DOMContentLoaded", () => {
             getWeatherData(city);
         }
     });
+    
 
     // Initial call to fetch weather data for a default city
-    getWeatherData("Bangalore");
+    getWeatherData("New Delhi");
 });
